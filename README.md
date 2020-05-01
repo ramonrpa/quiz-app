@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/zdERt1T.png)
 
-#Development
+# Development
 
 To get a local copy of the code, clone it using git:
 > git clone https://github.com/ramonrpa/quiz-app.git
@@ -23,5 +23,5 @@ Finally, you need to start a local web server. Run:
 | npm run build | Builds the app for production to the build folder. |
 | npm run eject | This command will remove the single build dependency from your project. |
 
-#License
+# License
 Code released under the [MIT License](https://github.com/ramonrpa/quiz-app/blob/master/LICENSE "MIT License")
