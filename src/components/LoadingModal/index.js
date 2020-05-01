@@ -10,7 +10,7 @@ class LoadingModal extends Component {
                 show={this.props.show}>
                 <Modal.Body className="text-center">
                     <h2>Just one second</h2>
-                    <p>{this.props.text || 'We are generate the content for you.'}</p>
+                    <p>{this.props.text || 'We are generating the content for you.'}</p>
                     <Spinner
                         as="span"
                         animation="grow"
