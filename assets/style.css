@@ -1,0 +1,127 @@
+body {
+    background-color: #012059;
+    color: #012261;
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.card-header {
+    background-color: #FFF;
+    border-bottom-color: #b6b6b6;
+    text-transform: uppercase;
+}
+
+.card-logo {
+    font-size: 4rem;
+}
+
+.btn-primary {
+    background-color: #012059;
+    border-color: #011e55;
+}
+
+.btn-primary:hover {
+    background-color: #012a75;
+    border-color: #022668;
+}
+
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #01215c;
+    border-color: #01215c;
+}
+
+
+.quiz-card {
+    min-height: 70vh;
+}
+
+.badge-primary {
+    background-color: #012059;
+    padding: 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #012059;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.questionText {
+    font-size: 1.3rem;
+}
+
+.chooseText {
+    margin-block-end: 0;
+}
+
+.btn-option {
+    margin: 10px 0 10px 0;
+}
+
+.btn-option .badge-primary {
+    width: 40px;
+    border-radius: 0;
+}
+
+.btn-option p {
+    border: #011e55 solid 1px;
+    border-radius: .25rem;
+}
+
+.btn-option p:hover {
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+    box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+    cursor: pointer;
+}
+
+.btn-option p.selected {
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+    box-shadow: 0px 0px 17px -3px rgba(1, 30, 85, 1);
+}
+
+.result-card {
+    min-height: 80vh;
+}
+
+.result-body {
+    padding: 0px;
+    padding-bottom: 1.25rem;
+}
+
+.stats-container h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary {
+    color: #012059;
+    border-color: #012059;
+    border-radius: 0;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    background-color: #012059;
+    border-color: #011e55;
+}
+
+.btn-outline-primary:hover {
+    background-color: #012059;
+    border-color: #011e55;
+}
+
+.questions-container th {
+    color: #012059;
+    border-color: #011e55;
+    border-bottom: 2px solid #011e55;
+}
+.questions-container td {
+    color: #012059;
+    border-color: #011e55;
+}
